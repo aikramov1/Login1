@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background: rgb(41, 127, 225);
+}
+.main{
+    width: 300px;
+    height: 450px;
+    background: rgb(154, 127, 224);
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+}
+.back1{
+    width: 100px;
+    height: 100px;
+    background:  rgb(126, 83, 236);
+    border-radius: 20px;
+    position: absolute;
+    top: -50px;
+    right: 40px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+.back2{
+    width: 400px;
+    height: 150px;
+    background:  rgb(126, 83, 236);
+    border-radius: 20px;
+    position: absolute;
+    top: 90px;
+    right: -150px;
+    transform: rotate(-40deg);
+    z-index: 1;
+}
+.back3{
+    width: 250px;
+    height: 250px;
+    background: rgb(126, 83, 236);
+    border-radius: 50px;
+    position: absolute;
+    bottom: -150px;
+    right: -40px;
+    transform: rotate(50deg);
+    z-index: 1;
+}
+.back4{
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius:50px;
+    position: absolute;
+    top: -20px;
+    left: -200px;
+    transform: rotate(50deg);
+    z-index: 2;
+    
+}
+.wr__items{
+    width: 300px;
+    height: 150px;
+   
+    margin-top: 140px;
+    position: absolute;
+    z-index: 4;
+   
+}
+.wr__inp{
+    width: 55%;
+    height: 30px;
+    border-bottom: 1px solid #c4c0c0;
+    margin: 20px;
+}
+.wr__inp i{
+    font-size: 18px;
+}
+.wr__inp input{
+    width: 85%;
+    height: 100%;
+    border: none;
+
+
+}
+.wr__inp1{
+    width: 55%;
+    height: 30px;
+    border-bottom: 1px solid #c4c0c0;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.wr__inp1 i{
+    font-size: 18px;
+}
+.wr__inp1 input{
+    width: 85%;
+    height: 100%;
+    border: none;
+}
+.wr__btn{
+    width: 200px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    z-index: 4;
+    margin: 270px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    color:  rgb(140, 103, 235);
+    border: 1px solid #c4c0c0;
+
+}
+.wr__btn p{
+    font-size: 12px;
+}
+.wr__icons{
+    width: 100px;
+    height: 100px;
+   
+    position: absolute;
+    z-index: 4;
+    bottom: 15px;
+    right: 30px;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+}
